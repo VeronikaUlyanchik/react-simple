@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.lampRed {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: red;
+}
+.lampGreen {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: green;
+}
+.button{
+    width: 50px;
+    border: 1px #282c34 solid;
+    margin: 10px;
+    cursor: pointer;
+}
+.onWork , .offWork{
+    width: 50px;
+    border: 1px #282c34 solid;
+    background: green;
+    margin: 10px;
+    cursor: pointer;
+}
+.offWork {
+    background: red;
+}
+
